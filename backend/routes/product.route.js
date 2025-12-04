@@ -11,4 +11,3 @@ router.post("/",protectRoute,adminRoute,createProduct);
 
 
 export default router;
-dunycejwk
