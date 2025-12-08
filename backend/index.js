@@ -17,6 +17,7 @@ app.use('/api/auth', authRoutes);
 app.use("/api/products",productRoutes);
 app.use("/api/cart",cartRoutes)
 app.use("api/coupons",couponRoute)
+app.use("/api/payments",paymentRoutes)
 
 // Server + DB
 const PORT = process.env.PORT || 3000;
